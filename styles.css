@@ -1,0 +1,101 @@
+/* Resetando margens e padding */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilo geral da página */
+
+body {
+    font-family: Arial, sans-serif;
+    height: 2000px;
+    /* Para permitir a rolagem da página */
+    position: relative;
+}
+
+
+/* Estilo dos ícones fixos */
+
+.social-icons {
+    position: fixed;
+    z-index: 1000;
+}
+
+
+/* Ícone do WhatsApp - superior esquerdo */
+
+.whatsapp {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.whatsapp:hover {
+    background-color: #128C7E;
+}
+
+
+/* Ícone do Instagram - superior direito */
+
+.instagram {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #C13584;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.instagram:hover {
+    background-color: #E1306C;
+}
+
+
+/* Ícone do Facebook - inferior esquerdo */
+
+.facebook {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #1877F2;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.facebook:hover {
+    background-color: #145dbf;
+}
+
+
+/* Ícone do LinkedIn - inferior direito */
+
+.linkedin {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0077B5;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.linkedin:hover {
+    background-color: #005582;
+}
